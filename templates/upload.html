@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Upload</title>
+</head>
+<body>
+	<h1>Filter lukisan dengan Neural Style Transfer</h1>
+	<h3>Copy dan paste URL gambar untuk dilakukan style transfer!</h3>
+	<label for="imgurl">URL gambar:</label>
+	<form id="upload-form" action="{{url_for('upload')}}" method= "POST" enctype="multipart/form-data">
+  	<input type="text" id="imgurl" name="imgurl"><br><br>
+		<input type="submit" value="Upload">
+		<br><br>
+
+
+		
+</body>
+</html>
